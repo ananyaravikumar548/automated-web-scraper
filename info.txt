@@ -1,0 +1,24 @@
+2. Automated Web Scraper with Scheduler
+🔍 What is it?
+
+It’s a script that automatically scrapes data (like product info, headlines, etc.) from a website and stores it. You can also schedule it to run every day or at specific intervals.
+
+⚙️ How does it work?
+
+The script uses Selenium (for dynamic websites) or requests + BeautifulSoup (for static ones) to load and read webpage data.
+It extracts relevant data from the HTML using tags and attributes.
+The data is saved in CSV or a database.
+You can use schedule or Celery to make it run automatically, like daily at 10:00 AM.
+🛠️ Technologies Used
+
+Python
+Selenium (for browser automation)
+BeautifulSoup (for parsing HTML)
+Schedule or Celery (for automation/scheduling)
+CSV or SQLite (for storing the scraped data)
+🎯 What did I learn/achieve?
+
+How web scraping works
+How to use Selenium and BeautifulSoup
+Basics of job scheduling in Python
+How to handle dynamic vs static websites
